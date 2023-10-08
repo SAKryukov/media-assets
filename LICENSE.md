@@ -212,28 +212,29 @@ and you may offer support or warranty protection for a fee.
 produce it from the Program, in the form of source code under the
 terms of section 4, provided that you also meet all of these conditions:
 
-```
-    a) The work must carry prominent notices stating that you modified
-    it, and giving a relevant date.
+<ul style="list-style-type:none;">
+</ol>
+<li>a) The work must carry prominent notices stating that you modified
+    it, and giving a relevant date.</li>
 
-    b) The work must carry prominent notices stating that it is
-    released under this License and any conditions added under section
-    7.  This requirement modifies the requirement in section 4 to
-    "keep intact all notices".
+<li>b) The work must carry prominent notices stating that it is
+    released under this License and any conditions added under section<br/>
+        7. This requirement modifies the requirement in section 4 to
+    "keep intact all notices".</li>
 
-    c) You must license the entire work, as a whole, under this
+<li>c) You must license the entire work, as a whole, under this
     License to anyone who comes into possession of a copy.  This
     License will therefore apply, along with any applicable section 7
     additional terms, to the whole of the work, and all its parts,
     regardless of how they are packaged.  This License gives no
     permission to license the work in any other way, but it does not
-    invalidate such permission if you have separately received it.
+    invalidate such permission if you have separately received it.</li>
 
-    d) If the work has interactive user interfaces, each must display
+<li>d) If the work has interactive user interfaces, each must display
     Appropriate Legal Notices; however, if the Program has interactive
     interfaces that do not display Appropriate Legal Notices, your
-    work need not make them do so.
-```
+    work need not make them do so.</li>
+</ul>
 
   A compilation of a covered work with other separate and independent
 works, which are not by their nature extensions of the covered work,
@@ -252,13 +253,14 @@ of sections 4 and 5, provided that you also convey the
 machine-readable Corresponding Source under the terms of this License,
 in one of these ways:
 
-```
-    a) Convey the object code in, or embodied in, a physical product
+<ul style="list-style-type:none;">
+</ol>
+<li>a) Convey the object code in, or embodied in, a physical product
     (including a physical distribution medium), accompanied by the
     Corresponding Source fixed on a durable physical medium
-    customarily used for software interchange.
+    customarily used for software interchange.</li>
 
-    b) Convey the object code in, or embodied in, a physical product
+<li>b) Convey the object code in, or embodied in, a physical product
     (including a physical distribution medium), accompanied by a
     written offer, valid for at least three years and valid for as
     long as you offer spare parts or customer support for that product
@@ -268,15 +270,15 @@ in one of these ways:
     medium customarily used for software interchange, for a price no
     more than your reasonable cost of physically performing this
     conveying of source, or (2) access to copy the
-    Corresponding Source from a network server at no charge.
+    Corresponding Source from a network server at no charge.</li>
 
-    c) Convey individual copies of the object code with a copy of the
+<li>c) Convey individual copies of the object code with a copy of the
     written offer to provide the Corresponding Source.  This
     alternative is allowed only occasionally and noncommercially, and
     only if you received the object code with such an offer, in accord
-    with subsection 6b.
+    with subsection 6b.</li>
 
-    d) Convey the object code by offering access from a designated
+<li>d) Convey the object code by offering access from a designated
     place (gratis or for a charge), and offer equivalent access to the
     Corresponding Source in the same way through the same place at no
     further charge.  You need not require recipients to copy the
@@ -287,13 +289,14 @@ in one of these ways:
     clear directions next to the object code saying where to find the
     Corresponding Source.  Regardless of what server hosts the
     Corresponding Source, you remain obligated to ensure that it is
-    available for as long as needed to satisfy these requirements.
+    available for as long as needed to satisfy these requirements.</li>
 
-    e) Convey the object code using peer-to-peer transmission, provided
+<li>e) Convey the object code using peer-to-peer transmission, provided
     you inform other peers where the object code and Corresponding
     Source of the work are being offered to the general public at no
-    charge under subsection 6d.
-```
+    charge under subsection 6d.</li>
+</ul>
+
 
   A separable portion of the object code, whose source code is excluded
 from the Corresponding Source as a System Library, need not be
@@ -367,30 +370,31 @@ for which you have or can give appropriate copyright permission.
 add to a covered work, you may (if authorized by the copyright holders of
 that material) supplement the terms of this License with terms:
 
-```
-    a) Disclaiming warranty or limiting liability differently from the
-    terms of sections 15 and 16 of this License; or
+<ul style="list-style-type:none;">
+</ol>
+<li>a) Disclaiming warranty or limiting liability differently from the
+    terms of sections 15 and 16 of this License; or</li>
 
-    b) Requiring preservation of specified reasonable legal notices or
+<li>b) Requiring preservation of specified reasonable legal notices or
     author attributions in that material or in the Appropriate Legal
-    Notices displayed by works containing it; or
+    Notices displayed by works containing it; or</li>
 
-    c) Prohibiting misrepresentation of the origin of that material, or
+<li>c) Prohibiting misrepresentation of the origin of that material, or
     requiring that modified versions of such material be marked in
-    reasonable ways as different from the original version; or
+    reasonable ways as different from the original version; or</li>
 
-    d) Limiting the use for publicity purposes of names of licensors or
-    authors of the material; or
+<li>d) Limiting the use for publicity purposes of names of licensors or
+    authors of the material; or</li>
 
-    e) Declining to grant rights under trademark law for use of some
-    trade names, trademarks, or service marks; or
+<li>e) Declining to grant rights under trademark law for use of some
+    trade names, trademarks, or service marks; or</li>
 
-    f) Requiring indemnification of licensors and authors of that
+<li>f) Requiring indemnification of licensors and authors of that
     material by anyone who conveys the material (or modified versions of
     it) with contractual assumptions of liability to the recipient, for
     any liability that these contractual assumptions directly impose on
-    those licensors and authors.
-```
+    those licensors and authors.</li>
+</ul>
 
   All other non-permissive additional terms are considered "further
 restrictions" within the meaning of section 10.  If the Program as you
