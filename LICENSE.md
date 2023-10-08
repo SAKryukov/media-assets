@@ -212,7 +212,7 @@ and you may offer support or warranty protection for a fee.
 produce it from the Program, in the form of source code under the
 terms of section 4, provided that you also meet all of these conditions:
 
-
+```
     a) The work must carry prominent notices stating that you modified
     it, and giving a relevant date.
 
@@ -233,6 +233,7 @@ terms of section 4, provided that you also meet all of these conditions:
     Appropriate Legal Notices; however, if the Program has interactive
     interfaces that do not display Appropriate Legal Notices, your
     work need not make them do so.
+```
 
   A compilation of a covered work with other separate and independent
 works, which are not by their nature extensions of the covered work,
@@ -251,6 +252,7 @@ of sections 4 and 5, provided that you also convey the
 machine-readable Corresponding Source under the terms of this License,
 in one of these ways:
 
+```
     a) Convey the object code in, or embodied in, a physical product
     (including a physical distribution medium), accompanied by the
     Corresponding Source fixed on a durable physical medium
@@ -291,6 +293,7 @@ in one of these ways:
     you inform other peers where the object code and Corresponding
     Source of the work are being offered to the general public at no
     charge under subsection 6d.
+```
 
   A separable portion of the object code, whose source code is excluded
 from the Corresponding Source as a System Library, need not be
@@ -364,6 +367,7 @@ for which you have or can give appropriate copyright permission.
 add to a covered work, you may (if authorized by the copyright holders of
 that material) supplement the terms of this License with terms:
 
+```
     a) Disclaiming warranty or limiting liability differently from the
     terms of sections 15 and 16 of this License; or
 
@@ -386,6 +390,7 @@ that material) supplement the terms of this License with terms:
     it) with contractual assumptions of liability to the recipient, for
     any liability that these contractual assumptions directly impose on
     those licensors and authors.
+```
 
   All other non-permissive additional terms are considered "further
 restrictions" within the meaning of section 10.  If the Program as you
@@ -633,20 +638,17 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    Graphics and similar media assets under development, resources for other projects
+* Graphics and similar media assets under development, resources for other projects
     Copyright &copy; 2023 Sergey A Kryukov
-
-    This program is free software: you can redistribute it and/or modify
+* This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
+* This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
+* You should have received a copy of the GNU General Public License
     along with this program.  If not, see [https://www.gnu.org/licenses](https://www.gnu.org/licenses).
 
 Also add information on how to contact you by electronic and paper mail.
@@ -654,11 +656,13 @@ Also add information on how to contact you by electronic and paper mail.
   If the program does terminal interaction, make it output a short
 notice like this when it starts in an interactive mode:
 
-    Media Assets  Copyright &copy; 2023  Sergey A Kryukov
-    
+```
+    Media Assets  Copyright (C) 2023  Sergey A Kryukov
+
     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
     This is free software, and you are welcome to redistribute it
     under certain conditions; type `show c' for details.
+```
 
 The hypothetical commands `show w' and `show c' should show the appropriate
 parts of the General Public License.  Of course, your program's commands
