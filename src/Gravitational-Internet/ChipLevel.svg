@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="640"
+   height="640"
+   viewBox="0 0 640 640.00003"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1">
+    <linearGradient
+       gradientTransform="matrix(0.11746269,0,0,0.18379752,421.32597,16.98399)"
+       xlink:href="#linearGradient4181"
+       id="linearGradient4476"
+       x1="-3393.854"
+       y1="358.40662"
+       x2="-3396.1929"
+       y2="2115.6089"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient4181">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop4183" />
+      <stop
+         id="stop4185"
+         offset="0.20542891"
+         style="stop-color:#a09f9f;stop-opacity:1" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0.55370849"
+         id="stop4187" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4189" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.11746269,0,0,0.18379752,796.44891,16.983982)"
+       xlink:href="#linearGradient4181"
+       id="linearGradient4476-5"
+       x1="-3393.854"
+       y1="358.40662"
+       x2="-3396.1929"
+       y2="2115.6089"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient4476);fill-opacity:1;stroke:#000000;stroke-width:1.82987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4468"
+       width="217.75429"
+       height="319.52612"
+       x="23.561378"
+       y="87.743866"
+       rx="0.00015309229"
+       ry="0.00015309227" />
+    <rect
+       style="fill:url(#linearGradient4476-5);fill-opacity:1;stroke:#000000;stroke-width:1.82987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4468-3"
+       width="217.75429"
+       height="319.52612"
+       x="398.68433"
+       y="87.743866"
+       rx="0.00015309229"
+       ry="0.00015309227" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.82987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4468-1-0"
+       width="9.6068077"
+       height="321.48672"
+       x="240.53142"
+       y="86.763573"
+       rx="0.0001530923"
+       ry="0.00015309227" />
+    <rect
+       style="fill:#73e4e0;fill-opacity:1;stroke:#000000;stroke-width:1.82987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4468-1-2"
+       width="137.57585"
+       height="319.52612"
+       x="249.93304"
+       y="87.743866"
+       rx="0.00015309232"
+       ry="0.00015309227" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.4896px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.457468px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="284.26938"
+       y="145.05685"
+       id="text4279"><tspan
+         id="tspan4281"
+         x="284.26938"
+         y="145.05685"
+         style="font-size:36.5973px;line-height:1.25;font-family:sans-serif;stroke-width:0.457468px">Si0₂</tspan></text>
+    <g
+       id="g4329"
+       transform="matrix(0.45746701,0,0,0.45746701,1259.4647,-213.0013)">
+      <ellipse
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4307-7"
+         cx="-1902.8571"
+         cy="1653.8579"
+         rx="17.142857"
+         ry="18.59944" />
+    </g>
+    <path
+       id="path4309-2"
+       d="m 388.97035,535.07556 v -55.30611 0 l 0.65354,-87.57227"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.28734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       id="g4329-8"
+       transform="matrix(0.45746701,0,0,0.45746701,1118.1727,-213.0013)">
+      <ellipse
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4307-7-5"
+         cx="-1902.8571"
+         cy="1653.8579"
+         rx="17.142857"
+         ry="18.59944" />
+    </g>
+    <path
+       id="path4309-2-0"
+       d="m 247.67835,535.07556 v -55.30611 0 l 0.65354,-87.57227"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.28734;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.82987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4468-1-0-4"
+       width="10.913857"
+       height="321.48672"
+       x="387.83582"
+       y="86.763573"
+       rx="0.0001530923"
+       ry="0.00015309227" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.4896px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.457468px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="285.55707"
+       y="567.81671"
+       id="text4164"><tspan
+         id="tspan4166"
+         x="285.55707"
+         y="567.81671"
+         style="font-size:78.9701px;line-height:1.25;font-family:sans-serif;stroke-width:0.457468px">~</tspan></text>
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sergey A Kryukov</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Sergey A Kryukov</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:identifier>SA</dc:identifier>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
