@@ -1,1 +1,2 @@
+https://en.wikipedia.org/wiki/Kernel_(image_processing)
 http://www.andreageremia.it/tutorial_matrix.html
