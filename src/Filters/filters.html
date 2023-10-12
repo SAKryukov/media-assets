@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Embedded SVG filter</title>
+        <script src="filters.js"></script>
+        <style>
+            * { font-family: sans-serif; }
+            section { margin-left: 1em; }
+            p { margin-bottom: 0.4em; }
+            p, footer { margin-top: 0.4em; }
+            section { margin: 0; margin-top: 0.4em; }
+            svg { display: none; }
+            p { font-size: 300%; font-weight: bold;  color: green; } /* in sync with selected */
+            section, p { display: inline-block; }
+            div { width: 1em; height: 1em; display: inline-block; border: solid black; border-width: 1px 0px 1px 1px; }
+        </style>
+    </head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg">
+    <filter id="Khan&ensp;Atlas" 
+       style="color-interpolation-filters:sRGB"
+       x="-0.0097512238"
+       y="-0.026261673"
+       width="1.0195024"
+       height="1.0525233">
+      <feTurbulence
+         id="feTurbulence6"
+         baseFrequency="0.2 0.01"
+         numOctaves="9" />
+      <feColorMatrix
+         id="feColorMatrix6"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 20"
+         result="result1" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="1.0000000 -1.0000000 1.0000000 -1.0000000 5.0000000 -1.0000000 1.0000000 -1.0000000 1.0000000 "
+         id="feConvolveMatrix6"
+         divisor="3"
+         result="result2" />
+      <feComposite
+         id="feComposite6"
+         in="result2"
+         operator="in"
+         in2="SourceGraphic" />
+    </filter>
+    </svg>
+    <p spellcheck="false" contenteditable="true">Embedded SVG filter</p><br/>
+    <section>
+        <select>
+            <option selected=true>&lt;No filters&gt;</option>
+        </select>
+    </section>
+    <section>
+        <select>
+            <option>100%</option>
+            <option>200%</option>
+            <option selected=true>300%</option>
+            <option>400%</option>
+            <option>600%</option>
+            <option>800%</option>
+            <option>1000%</option>
+            <option>1200%</option>
+            <option>1400%</option>
+            <option>1800%</option>
+            <option>2000%</option>
+        </select>
+    </section>
+    <footer>
+    </footer>
+</body>
+</html>
