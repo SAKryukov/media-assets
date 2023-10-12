@@ -7,7 +7,7 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open convolution-matrices.html",
+            "name": "Filters",
             "file": "${workspaceFolder}/filters.html"
         }
     ]

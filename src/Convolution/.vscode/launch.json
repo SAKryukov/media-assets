@@ -7,8 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open convolution-matrices.html",
-            "file": "c:\\sa\\papers\\My\\GitHub\\media-assets\\src\\Convolution\\convolution-matrices.html"
+            "name": "Convolution matrices",
+            "file": "${workspaceFolder}/convolution-matrices.html""
         }
     ]
 }
