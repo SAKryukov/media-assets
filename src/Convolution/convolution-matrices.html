@@ -5,14 +5,16 @@
         <script src="filters.js"></script>
         <style>
             * { font-family: sans-serif; }
+            header { display: flex; align-items: center; }
+            section { margin-left: 1em; }
             p { margin-bottom: 0.4em; margin-left: 1em; vertical-align: middle; }
             p, footer { margin-top: 0.4em; }
-            p { font-size: 12pt; font-weight: bold;  color: green; }
+            figure, section { margin: 0; margin-top: 0.4em; }
             svg { display: none; }
-            img { height: 128px; width: auto; }
+            p { font-size: 12pt; font-weight: bold;  color: green; } /* in sync with selected */
+            img { height: 128px; width: auto; } /* in sync with selected */
             figure, section, p { display: inline-block; }
-            figure { margin-left: 0; }
-            div { width: 1em; height: 1em; display: inline-block; border: solid black; border-width: 1px; }
+            div { width: 1em; height: 1em; display: inline-block; border: solid black; border-width: 1px 0px 1px 1px; }
         </style>
     </head>
 <body>
@@ -25,7 +27,7 @@
                 1 1 1 1 1
                 1 1 1 1 1">
         </filter>
-        <filter id="Gaussian&nbsp;Blur" style="color-interpolation-filters:linearRGB;">
+        <filter id="Gaussian&ensp;Blur" style="color-interpolation-filters:linearRGB;">
             <feConvolveMatrix order="3 3" kernelMatrix="
                 0 1 0
                 1 4 1
@@ -37,13 +39,7 @@
                 2 4 2
                 0 2 0">
         </filter>
-        <filter id="Motion&nbsp;Blur" style="color-interpolation-filters:linearRGB;">
-            <feConvolveMatrix order="3 3" kernelMatrix="
-                10 0 0
-                0 10 0
-                0 0 1">
-        </filter>
-        <filter id="Average&nbsp;/&nbsp;Mean&nbsp;Filter" style="color-interpolation-filters:linearRGB;">
+        <filter id="Box&ensp;Blur" style="color-interpolation-filters:linearRGB;">
             <feConvolveMatrix order="3 3" kernelMatrix="
                 0.111111 0.111111 0.111111
                 0.111111 0.111111 0.111111
@@ -88,7 +84,7 @@
                 -1 +5 -1
                 +0 -1 +0">
         </filter>
-        <filter id="Intensivied&nbsp;Sharpen" style="color-interpolation-filters:linearRGB;">
+        <filter id="Intensivied&ensp;Sharpen" style="color-interpolation-filters:linearRGB;">
             <feConvolveMatrix order="3 3" kernelMatrix="                
             -1 -1 -1
             -1 +9 -1
@@ -100,7 +96,7 @@
                 1 -4 1
                 0  1 0">
         </filter>
-        <filter id="Enhanced&nbsp;Edge" style="color-interpolation-filters:linearRGB;">
+        <filter id="Enhanced&ensp;Edge" style="color-interpolation-filters:linearRGB;">
             <feConvolveMatrix order="3 3" kernelMatrix="
                 +0 0 0
                 -1 1 0
@@ -118,54 +114,54 @@
                 -1 +8 -1
                 -1 -1 -1">
         </filter>
-        <filter id="Top&nbsp;Sobel" style="color-interpolation-filters:linearRGB;">
+        <filter id="Top&ensp;Sobel" style="color-interpolation-filters:linearRGB;">
             <feConvolveMatrix order="3 3" kernelMatrix="
                 +1 +2 +1
                 +0 +0 +0
                 -1 -2 -1">
         </filter>
-        <filter id="Bottom&nbsp;Sobel" style="color-interpolation-filters:linearRGB;">
+        <filter id="Bottom&ensp;Sobel" style="color-interpolation-filters:linearRGB;">
             <feConvolveMatrix order="3 3" kernelMatrix="
                 -1 -2 -1
                 +0 +0 +0
                 +1 +2 +1">
         </filter>
-        <filter id="Right&nbsp;Sobel" style="color-interpolation-filters:linearRGB;">
+        <filter id="Right&ensp;Sobel" style="color-interpolation-filters:linearRGB;">
             <feConvolveMatrix order="3 3" kernelMatrix="
                 1 0 -1
                 2 0 -2
                 1 0 -1">
         </filter>
-        <filter id="Left&nbsp;Sobel" style="color-interpolation-filters:linearRGB;">
+        <filter id="Left&ensp;Sobel" style="color-interpolation-filters:linearRGB;">
             <feConvolveMatrix order="3 3" kernelMatrix="
                 -1 0 1
                 -2 0 2
                 -1 0 1">
         </filter>
-        <filter id="Roberts&nbsp;Cross&nbsp;Convolution-1" style="color-interpolation-filters:auto;">
+        <filter id="Roberts&ensp;Cross&ensp;Convolution-1" style="color-interpolation-filters:auto;">
             <feConvolveMatrix order="2 2" kernelMatrix="
                 +0 +1
                 -1 +0" />
-        <filter id="Roberts&nbsp;Cross&nbsp;Convolution-2" style="color-interpolation-filters:auto;">
+        <filter id="Roberts&ensp;Cross&ensp;Convolution-2" style="color-interpolation-filters:auto;">
             <feConvolveMatrix order="2 2" kernelMatrix="
                 0 -1
                 1 +0" />
         </filter>
-        <filter id="Roberts&nbsp;Cross&nbsp;Convolution-3" style="color-interpolation-filters:auto;">
+        <filter id="Roberts&ensp;Cross&ensp;Convolution-3" style="color-interpolation-filters:auto;">
             <feConvolveMatrix order="2 2" kernelMatrix="
                 -1 0
                 +0 1" />
         </filter>
-        <filter id="Roberts&nbsp;Cross&nbsp;Convolution-4" style="color-interpolation-filters:auto;">
+        <filter id="Roberts&ensp;Cross&ensp;Convolution-4" style="color-interpolation-filters:auto;">
             <feConvolveMatrix order="2 2" kernelMatrix="
                 1 +0
                 0 -1" />
         </filter>
     </svg>
-    <table><tr>
-        <td><img alt="Bee" src="14.bee.webp"/></td>
-        <td><p spellcheck="false" contenteditable="true">Embedded SVG filter</p></td>
-    </tr></table>
+    <header>
+        <img alt="Bee" src="14.bee.webp"/>
+        <p spellcheck="false" contenteditable="true">Embedded SVG filter</p>
+    </header>
     <figure>
         <select>
             <option selected="true">128 px</option>
