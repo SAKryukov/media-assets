@@ -10,39 +10,34 @@
             p, footer { margin-top: 0.4em; }
             section { margin: 0; margin-top: 0.4em; }
             svg { display: none; }
-            p { font-size: 300%; font-weight: bold;  color: green; } /* in sync with selected */
+            p { font-size: 300%; font-weight: bold;  color: yellow; } /* in sync with selected */
             section, p { display: inline-block; }
             div { width: 1em; height: 1em; display: inline-block; border: solid black; border-width: 1px 0px 1px 1px; }
         </style>
     </head>
 <body>
     <svg xmlns="http://www.w3.org/2000/svg">
-    <filter id="Khan&ensp;Atlas" 
-       style="color-interpolation-filters:sRGB"
-       x="-0.0097512238"
-       y="-0.026261673"
-       width="1.0195024"
-       height="1.0525233">
-      <feTurbulence
-         id="feTurbulence6"
-         baseFrequency="0.2 0.01"
-         numOctaves="9" />
-      <feColorMatrix
-         id="feColorMatrix6"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 20"
-         result="result1" />
-      <feConvolveMatrix
-         order="3 3"
-         kernelMatrix="1.0000000 -1.0000000 1.0000000 -1.0000000 5.0000000 -1.0000000 1.0000000 -1.0000000 1.0000000 "
-         id="feConvolveMatrix6"
-         divisor="3"
-         result="result2" />
-      <feComposite
-         id="feComposite6"
-         in="result2"
-         operator="in"
-         in2="SourceGraphic" />
-    </filter>
+        <filter id="Cross">
+            <feTurbulence baseFrequency="0.1 0.001" numOctaves="8" seed="1"/>
+            <feBlend result="turbulenceXBlend"/>
+            <feTurbulence baseFrequency="0.003 0.53" numOctaves="8" seed="2"/>
+            <feBlend in2="turbulenceXBlend"/>
+            <feComposite in2="SourceGraphic" operator="in"/>
+            <feComposite in2="SourceGraphic" operator="over" />
+         </filter>
+        <filter id="Khan&ensp;Atlas" style="color-interpolation-filters:sRGB">
+            <feTurbulence baseFrequency="0.2 0.01" numOctaves="9" />
+            <feColorMatrix values="
+                1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0 20" />
+            <feConvolveMatrix order="3 3" kernelMatrix="
+                +1 -1 +1
+                -1 +5 -1
+                +1 -1 +1" divisor="3" result="resultConvolution" />
+            <feComposite in="resultConvolution" operator="in" in2="SourceGraphic" />
+        </filter>
     </svg>
     <p spellcheck="false" contenteditable="true">Embedded SVG filter</p><br/>
     <section>
