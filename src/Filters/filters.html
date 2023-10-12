@@ -38,6 +38,24 @@
                 +1 -1 +1" divisor="3" result="resultConvolution" />
             <feComposite in="resultConvolution" operator="in" in2="SourceGraphic" />
         </filter>
+        <filter id="Khan&ensp;Atlas,&ensp;posterized" style="color-interpolation-filters:sRGB">
+            <feTurbulence baseFrequency="0.08 0.004" numOctaves="9" />
+            <feColorMatrix values="
+                1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0 20" />
+            <feConvolveMatrix order="3 3" kernelMatrix="
+                +1 -1 +1
+                -1 +5 -1
+                +1 -1 +1" divisor="3"/>
+            <feComponentTransfer result="resultComponentTransfer">
+                  <feFuncR type="discrete" tableValues="0 0.2 0.4 0.8 1"/>
+                 <feFuncG type="discrete" tableValues="0 0.2 0.4 0.8 1"/>
+                 <feFuncB type="discrete" tableValues="0 0.2  0.4 0.8 1"/>
+            </feComponentTransfer> 
+            <feComposite in="resultComponentTransfer" operator="in" in2="SourceGraphic" />
+        </filter>
     </svg>
     <p spellcheck="false" contenteditable="true">Embedded SVG filter</p><br/>
     <section>

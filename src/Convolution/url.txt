@@ -1,2 +1,4 @@
 https://en.wikipedia.org/wiki/Kernel_(image_processing)
 http://www.andreageremia.it/tutorial_matrix.html
+https://tympanus.net/codrops/2019/01/29/svg-filter-effects-poster-image-effect-with-fecomponenttransfer
+
