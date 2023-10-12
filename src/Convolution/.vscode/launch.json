@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open convolution-matrices.html",
+            "file": "c:\\sa\\papers\\My\\GitHub\\media-assets\\src\\Convolution\\convolution-matrices.html"
+        }
+    ]
+}
