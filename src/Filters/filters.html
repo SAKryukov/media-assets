@@ -8,11 +8,10 @@
             section { margin-left: 1em; }
             p { margin-bottom: 0.4em; }
             p, footer { margin-top: 0.4em; }
-            p { filter: url(#Camo); }
             section { margin: 0; margin-top: 0.4em; }
             svg { display: none; }
-            p { font-size: 1200%; font-weight: bold;  color: darkgoldenrod; } /* in sync with selected */
-            section, p { display: inline-block; }
+            p { font-size: 14pt; font-weight: bold;  color: darkgoldenrod; } /* in sync with selected */
+            section { display: inline-block; }
             div { width: 1em; height: 1em; display: inline-block; border: solid black; border-width: 1px 0px 1px 1px; }
         </style>
     </head>
@@ -59,7 +58,7 @@
         </filter>
         <filter id="Camo">
             <feComposite result="resultSource" />
-            <feTurbulence baseFrequency="0.101" type="turbulence" numOctaves="1" seed="2" />
+            <feTurbulence baseFrequency="0.04" type="turbulence" numOctaves="1" seed="2" />
             <feColorMatrix
                 values="0 0 0 0 0.8
                         0 0 0 0 0.7
@@ -72,26 +71,21 @@
             <feComposite in2="SourceGraphic" operator="in" />
         </filter>
     </svg>
-    <p spellcheck="false" contenteditable="true">Camo</p><br/>
-    <p spellcheck="false" contenteditable="true">Embedded SVG filter</p><br/>
+    <main></main>
     <section>
         <select>
-            <option selected=true>&lt;No filters&gt;</option>
-        </select>
-    </section>
-    <section>
-        <select>
-            <option>100%</option>
-            <option>200%</option>
-            <option selected=true>300%</option>
-            <option>400%</option>
-            <option>600%</option>
-            <option>800%</option>
-            <option>1000%</option>
-            <option>1200%</option>
-            <option>1400%</option>
-            <option>1800%</option>
-            <option>2000%</option>
+            <option>12 pt</option>
+            <option selected=true>14 pt</option>
+            <option>16 pt</option>
+            <option>18 pt</option>
+            <option>20 pt</option>
+            <option>24 pt</option>
+            <option>32 pt</option>
+            <option>36 pt</option>
+            <option>48 pt</option>
+            <option>64 pt</option>
+            <option>72 pt</option>
+            <option>144 pt</option>
         </select>
     </section>
     <footer>
