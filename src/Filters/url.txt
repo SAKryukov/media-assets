@@ -1,0 +1,8 @@
+https://github.com/webplatform/webplatform.github.io
+https://www.smashingmagazine.com/2015/05/why-the-svg-filter-is-awesome
+https://webplatform.github.io/docs/svg/tutorials/smarter_svg_filters/
+https://codepen.io/collection/ArxmyO/
+https://github.com/dirkweber/svg-filter-typeeffects
+https://svgwrite.readthedocs.io =>
+https://svgwrite.readthedocs.io/en/latest/classes/filter_primitive.html#filter-primitive
+http://srufaculty.sru.edu/david.dailey/svg/SVGOpen2010/filters2.htm
